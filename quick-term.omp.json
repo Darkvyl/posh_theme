@@ -115,6 +115,11 @@
       "type": "prompt"
     }
   ],
+  "transient_prompt": {
+    "background": "transparent",
+    "foreground": "#896f04",
+    "template": " {{ if .Root }}#{{else}}${{end}}>"
+  },
   "console_title_template": "{{.Folder}}{{if .Root}} :: root{{end}} :: {{.Shell}}",
   "final_space": true,
   "version": 3
